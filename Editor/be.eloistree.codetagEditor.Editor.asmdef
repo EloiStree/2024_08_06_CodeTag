@@ -1,10 +1,12 @@
 
 {                                                                   
-            "name": "be.eloistree.codetag",          
-    "references": [
+            "name": "be.eloistree.codetagEditor",          
+    "references": ["be.eloistree.codetag","be.eloistree.developernote"
 ],                                                              
     "optionalUnityReferences": [],                                  
-    "includePlatforms": [],                                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
     "excludePlatforms": [],                                         
     "allowUnsafeCode": false,                                       
     "overrideReferences": false,                                    
